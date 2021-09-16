@@ -7,7 +7,7 @@ namespace Tests\Part01heMoneyExample\Ch02DegenerateObjects;
 use PHPUnit\Framework\TestCase;
 use TDDPHP\Part01TheMoneyExample\Ch02DegenerateObjects\Dollar;
 
-class DollerTest extends TestCase
+class MoneyTest extends TestCase
 {
     public function testMultiplication(): void
     {

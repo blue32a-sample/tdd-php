@@ -7,7 +7,7 @@ namespace Tests\Part01heMoneyExample\Ch01MultiCurrencyMoney;
 use PHPUnit\Framework\TestCase;
 use TDDPHP\Part01TheMoneyExample\Ch01MultiCurrencyMoney\Dollar;
 
-class DollerTest extends TestCase
+class MoneyTest extends TestCase
 {
     public function testMultiplication(): void
     {
