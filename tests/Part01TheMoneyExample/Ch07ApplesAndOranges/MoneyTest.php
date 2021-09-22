@@ -13,8 +13,12 @@ class MoneyTest extends TestCase
     public function testMultiplication(): void
     {
         $five = new Dollar(5);
-        $this->assertEquals(new Dollar(10), $five->times(2));
-        $this->assertEquals(new Dollar(15), $five->times(3));
+
+        // JUnitのassertEqualsはobjectのequalsで比較する
+        // $this->assertEquals(new Dollar(10), $five->times(2));
+        // $this->assertEquals(new Dollar(15), $five->times(3));
+        $this->assertTrue((new Dollar(10))->equals($five->times(2)));
+        $this->assertTrue((new Dollar(15))->equals($five->times(3)));
     }
 
     public function testEquality(): void
@@ -29,7 +33,11 @@ class MoneyTest extends TestCase
     public function testFrancMultiplication(): void
     {
         $five = new Franc(5);
-        $this->assertEquals(new Franc(10), $five->times(2));
-        $this->assertEquals(new Franc(15), $five->times(3));
+
+        // JUnitのassertEqualsはobjectのequalsで比較する
+        // $this->assertEquals(new Franc(10), $five->times(2));
+        // $this->assertEquals(new Franc(15), $five->times(3));
+        $this->assertTrue((new Franc(10))->equals($five->times(2)));
+        $this->assertTrue((new Franc(15))->equals($five->times(3)));
     }
 }
