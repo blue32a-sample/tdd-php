@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Tests\Part01heMoneyExample\Ch11TheRootOfAllEvil;
 
 use PHPUnit\Framework\TestCase;
-use TDDPHP\Part01TheMoneyExample\Ch11TheRootOfAllEvil\Franc;
 use TDDPHP\Part01TheMoneyExample\Ch11TheRootOfAllEvil\Money;
 
 class MoneyTest extends TestCase
