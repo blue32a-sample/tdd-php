@@ -1,0 +1,10 @@
+
+Todo:
+  ✔ $5 + 10CHF = $10 （レートが2:1の場合） @done(21-09-25 21:37)
+  ✔ $5 + $5 = $10 @done(21-09-25 00:22)
+  ✔ $5 + $5 がMoneyを返す @done(21-09-25 22:00)
+  ✔ Bank->reduce(Money) @done(21-09-23 18:57)
+  ✔ Moneyを変換して換算を行う @done(21-09-25 00:22)
+  ✔ Reduce(Bnak, String) @done(21-09-25 00:22)
+  ✔ Sum->plus @done(21-09-25 21:48)
+  ✔ Expression->times @done(21-09-25 21:53)
